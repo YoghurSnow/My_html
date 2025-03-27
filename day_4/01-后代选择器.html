@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 把所有div都变了 */
+        span{color: blue;}
+        /* 只变色div里面的span */
+        div span{color: brown;}
+
+    </style>
+</head>
+<body>
+    <span>span 标签</span>
+    <span>span 标签2</span>
+    <div>
+        <span>这是div 的儿子 span </span>
+        <p>
+            <span>孙子span </span>
+        </p>
+    </div>
+</body>
+</html>
